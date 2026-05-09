@@ -14,3 +14,10 @@ Este proyecto es una Single Page Application (SPA) desarrollada en React que sim
 1. **Sincronización de Rutas:** Al principio hubo un conflicto estricto con el *Case Sensitivity* (mayúsculas/minúsculas) de React al importar los componentes de las páginas, lo cual se solucionó estandarizando los nombres de los archivos (`Home.jsx`).
 2. **Despliegue en Vercel:** Para evitar el error 404 al recargar la página en producción usando React Router, fue necesario agregar un archivo de configuración `vercel.json` con reglas de reescritura (*rewrites*) apuntando al `index.html`.
 3. **Estructura DRY:** Se refactorizó la barra de contactos a un componente independiente (`Sidebar.jsx`) para no repetir el código tanto en la vista de inicio como en la del chat, cumpliendo con los principios de diseño.
+
+
+<h2 align="center">🚀 Preview</h2>
+
+<p align="center">
+  <img src="./images/whatsapp.png" width="700"/>
+</p>
